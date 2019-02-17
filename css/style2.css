@@ -3,3 +3,28 @@
     grid-template-rows: 3.5rem 1fr;
     
 }
+.bold{
+    font-weight: 900;
+}
+.lightBold{
+    font-weight: 700;
+}
+ul.dashList{
+    margin-left: 15px;
+    list-style-type: none;
+}
+ul.dashList>li{
+    text-indent: -15px;
+}
+ul.dashList>li:before{
+    content: '-- ';
+}
+p, li{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.box {
+    display: grid;
+    grid-row: span 1;
+    grid-column: span 1;
+}
